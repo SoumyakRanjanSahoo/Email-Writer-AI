@@ -1,31 +1,12 @@
-# Email-Writer-AI
-AI Email Writer – Spring Boot + React A full-stack AI-powered email drafting tool built with Spring Boot (Java) for the backend and React for the frontend. Users can input key details such as the tone, context, and main points, and the AI generates professional, friendly, or concise emails instantly.
-Features:
+# React + Vite
 
-✉️ AI-generated emails based on user input.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-⚡ Spring Boot REST API for secure and fast AI integration.
+Currently, two official plugins are available:
 
-🎨 React frontend with a clean, responsive UI.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-🔄 Real-time interaction between client and server.
+## Expanding the ESLint configuration
 
-🎯 Multiple tones (friendly, formal, persuasive, etc.).
-
-📜 Simple setup with Maven + npm.
-
-Tech Stack:
-
-Backend: Spring Boot, Java, REST API
-
-Frontend: React,Tailwind JavaScript, HTML, CSS
-
-AI: Integrated with an AI text generation API
-
-Use Cases:
-
-Writing business emails quickly.
-
-Drafting follow-ups or customer replies.
-
-Creating personalized outreach messages.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
